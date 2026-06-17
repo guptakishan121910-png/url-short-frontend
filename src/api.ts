@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:4000";
+const API_BASE_URL = "https://url-short-backend-production-f8ad.up.railway.app";
 
 export type Link = {
   code: string;
